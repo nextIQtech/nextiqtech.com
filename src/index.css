@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +10,64 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e5e0e0;
+  padding: 1rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.hero-navbar {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.nav-link_color {
+  color: black !important;
+}
+
+.burger-icon {
+  background-color: black !important;
+  color: white;
+}
+
+.text-top {
+  padding-top: 24rem;
+}
+
+.card-hover {
+  color : black;
+}
+
+.card-hover p {
+    max-width: 230px;
+    text-align: right;
+    line-height: 17px;
+}
+
+.card-hover h2 {
+  max-width: 200px;
+}
+
+.card-hover:hover {
+  color: white !important;
+  background-color: #7832f3 !important;
+}
+
+.card-hover:hover > .hover-content {
+  color: white;
+}
+
+.card-hover-about:hover{
+  color: white !important;
+  background-color: #7832f3 !important;
+}
+
+.contact-arrow {
+  font-size: 9rem !important;
 }
