@@ -7,17 +7,17 @@ const SoftwareCompanyCards = () => {
     {
       title: 'NEXT LEVEL SOLUTIONS',
       description: 'SEAMLESSLY INTEGRATING DIVERSE PLATFORMS TO DELIVER COHESIVE, INNOVATIVE TECHNOLOGICAL SOLUTIONS THAT BRIDGE SYSTEMS AND ENHANCE FUNCTIONALITY.',
-      image: 'images/mouse.png',
+      image: 'next-iq/images/mouse.png',
     },
     {
       title: 'NEXT-GEN DESIGNS',
       description: 'FRESH, INNOVATIVE WEB DESIGNS WITH CLEAN AND EFFICIENT BACK-END USER EXPERIENCES.',
-      image: 'images/designs.png',
+      image: 'next-iq/images/designs.png',
     },
     {
       title: 'BESPOKE SOFTWARE',
       description: 'CUSTOMIZED SOFTWARE SOLUTIONS DESIGNED TO MEET UNIQUE BUSINESS NEEDS WITH PRECISION AND FLEXIBILITY.',
-      image: 'images/keyboard.png',
+      image: 'next-iq/images/keyboard.png',
     },
   ];
 

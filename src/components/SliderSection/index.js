@@ -1,13 +1,12 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper";
 import "swiper/css";
 
 const ImageSlider = () => {
   const images = [
-    "images/slider-img.jpg",
-    "images/slider-img.jpg",
-    "images/slider-img.jpg",
+    "next-iq/images/slider-img.jpg",
+    "next-iq/images/slider-img.jpg",
+    "next-iq/images/slider-img.jpg",
   ];
 
   return (

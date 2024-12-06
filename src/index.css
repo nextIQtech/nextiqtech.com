@@ -71,3 +71,23 @@ code {
 .contact-arrow {
   font-size: 9rem !important;
 }
+
+.custom-form .MuiInputBase-root  {
+  border-radius: 2rem !important;
+  box-shadow: 0 0 0 4px #f5f5f5 !important;
+}
+
+.custom-button {
+  background-color: #7832f3 !important;
+    border-radius: 30px !important;
+    max-width: 120px;
+    padding: 10px;
+    margin: auto !important;
+    display: flex !important;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.custom-button:hover {
+  background-color: #5814cd !important;
+}

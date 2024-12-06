@@ -3,7 +3,7 @@ const Footer = () => {
       <footer className="bg-white shadow-lg">
         <div className="container mx-auto py-6 flex flex-wrap items-center justify-between">
           <div className="flex items-center text-left">
-            <img src="images/logo.svg" alt="Logo" />
+            <img src="next-iq/images/logo.svg" alt="Logo" />
           </div>
   
           <ul className="hidden md:flex space-x-6 text-gray-800 font-medium">
@@ -20,13 +20,13 @@ const Footer = () => {
             </ul>
             <div className="flex space-x-4">
               <a href="/" className="hover:text-purple-600 text-gray-800">
-                <img src="images/facebook.svg" alt="fb"/>
+                <img src="next-iq/images/facebook.svg" alt="fb"/>
               </a>
               <a href="/" className="hover:text-purple-600 text-gray-800">
-              <img src="images/dribal.svg" alt="dribal"/>
+              <img src="next-iq/images/dribal.svg" alt="dribal"/>
               </a>
               <a href="/" className="hover:text-purple-600 text-gray-800">
-                <img src="images/insta.svg" alt="insta"/>
+                <img src="next-iq/images/insta.svg" alt="insta"/>
               </a>
             </div>
           </div>

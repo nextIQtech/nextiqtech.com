@@ -29,7 +29,7 @@ const Navbar = () => {
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
         {/* Left: Logo */}
         <Typography variant="h6" component="div" className="logo" sx={{ flexGrow: 1 }}>
-          <img src="images/logo.svg" alt="Logo" />
+          <img src="next-iq/images/logo.svg" alt="Logo" />
         </Typography>
 
         {/* Center: Links (hidden on mobile) */}

@@ -1,22 +1,31 @@
-import React from 'react';
-import { Grid, Typography, Box } from '@mui/material';
+import React, { useState } from "react";
+import { Box, Grid, Modal } from "@mui/material";
 import { LocationOn, Call, ArrowOutward } from '@mui/icons-material';
+import ContactForm from './ContactForm';
+
 
 const ContactSection = () => {
+
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
   return (
     <Grid container spacing={4} className="p-5">
       <Grid item xs={12} sm={12}>
         <Box className="text-right flex flex-col justify-end">
-          <div className="uppercase align-middle flex float-right">8903 Glades Road Suite A8 <br/>Boca Raton, FL 33434 <LocationOn/></div>
+          <div className="uppercase align-middle flex float-right justify-end">8903 Glades Road Suite A8 <br/>Boca Raton, FL 33434 <LocationOn/></div>
           <a href="tel:561-922-0500">561-922-0500 <Call /></a>
         </Box>
       </Grid>
       <Grid item xs={12} sm={12} className="flex justify-center">
         <Box>
           <img
-            src="images/contact.png"
+            src="next-iq/images/contact.png"
             alt="Contact"
-            style={{ cursor: 'pointer' }}
+            style={{ cursor: "pointer" }}
+            onClick={handleOpen}
           />
         </Box>
       </Grid>
@@ -30,6 +39,10 @@ const ContactSection = () => {
         </h1>
         </div>
       </Grid>
+       {/* Modal Component */}
+       <Modal open={open} onClose={handleClose}>
+        <ContactForm onClose={handleClose} />
+      </Modal>
     </Grid>
   );
 };

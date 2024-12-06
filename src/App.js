@@ -31,7 +31,7 @@ function App() {
   <div
     className="relative w-full bg-no-repeat"
     style={{
-      backgroundImage: "url('images/spiral.svg')",
+      backgroundImage: "url('next-iq/images/spiral.svg')",
     }}
   >
     <div className="text-right md:pt-96 pt-24">
@@ -62,7 +62,7 @@ function App() {
             EXPLORE OUR <br/>SERVICES
           </h1>
           <img
-            src="images/computer-img.svg"
+            src="next-iq/images/computer-img.svg"
             alt="Services Illustration"
             className="w-full max-w-sm"
           />
@@ -120,7 +120,7 @@ function App() {
               <Typography variant="h4" gutterBottom className="uppercase text-2xl text-right">
               ABOUT US
               </Typography>
-              <img src="images/pageicon.png" alt="page icon" className="float-right"/>
+              <img src="next-iq/images/pageicon.png" alt="page icon" className="float-right"/>
             </Box>
           </Grid>
         </Grid>
