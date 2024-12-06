@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/next-iq/static/css/main.75051637.css",
+    "main.js": "/next-iq/static/js/main.32122190.js",
+    "index.html": "/next-iq/index.html",
+    "main.75051637.css.map": "/next-iq/static/css/main.75051637.css.map",
+    "main.32122190.js.map": "/next-iq/static/js/main.32122190.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75051637.css",
+    "static/js/main.32122190.js"
+  ]
+}
