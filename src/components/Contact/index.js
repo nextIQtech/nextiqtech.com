@@ -32,7 +32,7 @@ const ContactSection = () => {
       <Grid item xs={12} sm={12} className="flex justify-left">
         <div>
         <h1 className="md:text-[7rem] text-3xl lg:leading-[8rem] sm:leading-[5rem] leading-normal uppercase text-left md:max-w-[70%] max-w-[100%] font-medium flex items-center">
-            CONNECT <ArrowOutward className="md:text-[9rem] text-[#5700ef] contact-arrow"/>
+            CONNECT <ArrowOutward className="md:text-[9rem] text-[#7832F3] contact-arrow"/>
         </h1>
         <h1 className="md:text-[7rem] text-3xl lg:leading-[8rem] sm:leading-[5rem] leading-normal uppercase text-left font-medium flex items-center">
            WITH US NOW
