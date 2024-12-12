@@ -138,7 +138,7 @@ function Home() {
               <Typography variant="h4" gutterBottom className="uppercase text-2xl text-right">
               ABOUT US
               </Typography>
-              <img src="next-iq/images/pageicon.png" alt="page icon" className="float-right"/>
+              <img src="next-iq/images/logomark.svg" width={70} alt="page icon" className="float-right"/>
             </Box>
           </Grid>
         </Grid>
