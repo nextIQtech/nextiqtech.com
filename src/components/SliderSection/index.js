@@ -4,9 +4,9 @@ import "swiper/css";
 
 const ImageSlider = () => {
   const images = [
-    "next-iq/images/slider-img.jpg",
-    "next-iq/images/slider-img.jpg",
-    "next-iq/images/slider-img.jpg",
+    "./images/slider-img.jpg",
+    "./images/slider-img.jpg",
+    "./images/slider-img.jpg",
   ];
 
   return (

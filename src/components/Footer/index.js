@@ -4,7 +4,7 @@ const Footer = () => {
         <div className="px-6 mx-auto py-6 flex flex-wrap items-center justify-between">
           <div className="flex items-center text-left">
           <a href="/" style={{ textDecoration: "none" }}>
-            <img src="next-iq/images/logo.svg" width={200} alt="Logo" />
+            <img src="./images/logo.svg" width={200} alt="Logo" />
             </a>
           </div>
   
@@ -22,13 +22,13 @@ const Footer = () => {
             </ul>
             {/* <div className="flex space-x-4">
               <a href="/" className="hover:text-purple-600 text-gray-800">
-                <img src="next-iq/images/facebook.svg" alt="fb"/>
+                <img src="./images/facebook.svg" alt="fb"/>
               </a>
               <a href="/" className="hover:text-purple-600 text-gray-800">
-              <img src="next-iq/images/dribal.svg" alt="dribal"/>
+              <img src="./images/dribal.svg" alt="dribal"/>
               </a>
               <a href="/" className="hover:text-purple-600 text-gray-800">
-                <img src="next-iq/images/insta.svg" alt="insta"/>
+                <img src="./images/insta.svg" alt="insta"/>
               </a>
             </div> */}
           </div>

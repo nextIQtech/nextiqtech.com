@@ -22,7 +22,7 @@ const ContactSection = () => {
       <Grid item xs={12} sm={12} className="flex justify-center">
         <Box>
           <img
-            src="next-iq/images/contact.png"
+            src="./images/contact.png"
             alt="Contact"
             style={{ cursor: "pointer" }}
             onClick={handleOpen}

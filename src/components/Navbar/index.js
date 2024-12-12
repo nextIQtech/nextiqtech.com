@@ -44,7 +44,7 @@ const Navbar = () => {
         {/* Left: Logo */}
         <Typography variant="h6" component="div" className="logo" sx={{ flexGrow: 1 }}>
   <a href="/" style={{ textDecoration: "none" }}>
-    <img src="next-iq/images/logo.svg" alt="Logo" />
+    <img src="./images/logo.svg" alt="Logo" />
   </a>
 </Typography>
 
